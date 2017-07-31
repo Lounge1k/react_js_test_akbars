@@ -2,5 +2,5 @@
 
 Test task for ak bars technologies
 
-#npm install
-#npm start
+# npm install
+# npm start
