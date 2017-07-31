@@ -1,0 +1,20 @@
+.container {
+  max-width: 800px;
+  .row {
+    padding-left: 20px;
+    border: 0;
+    &.header{
+      margin-bottom: 10px;
+    }
+    &-name {
+      width: 20%;
+      display: inline-block;
+      font-size: 3vh;
+    }
+    &-content{
+      width: 80%;
+      display: inline-block;
+      font-size: 2vh;
+    }
+  }
+}

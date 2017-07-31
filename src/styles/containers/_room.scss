@@ -1,0 +1,24 @@
+.room {
+  padding-left: 20px;
+  border: 1px solid #bdbdbd;
+  margin-bottom: 5px;
+  &-info {
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    &-name {
+      font-size: 3vh;
+      font-weight: bold;
+    }
+    &-seats {
+      font-size: 2vh;
+      color: grey;
+    }
+  }
+  &-content{
+    width: 80%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2vh;
+  }
+}

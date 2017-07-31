@@ -1,0 +1,14 @@
+.month-container {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #dcdcdc;
+  .month-name {
+    font-size: 2vh;
+    color: #7e7e7e;
+    text-transform: capitalize;
+  }
+  .icon {
+    cursor: pointer;
+  }
+}

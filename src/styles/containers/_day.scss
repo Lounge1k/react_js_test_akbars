@@ -1,0 +1,8 @@
+.day {
+  border: 1px solid #dbdbdb;
+  overflow: hidden;
+  margin-right: 10px;
+  &:last-child{
+    margin-right: -1px;
+  }
+}

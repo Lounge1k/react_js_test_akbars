@@ -1,0 +1,9 @@
+.week {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .week-day {
+    text-align: center;
+    width: 20%;
+  }
+}
