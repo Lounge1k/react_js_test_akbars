@@ -1,6 +1,4 @@
-# react_js_test_akbars
-
-Test task for ak bars technologies
+# Test task for ak bars technologies
 
 git pull https://github.com/Lounge1k/react_js_test_akbars.git <br>
 cd react_js_test_akbars<br>
