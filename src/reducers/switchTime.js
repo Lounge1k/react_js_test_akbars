@@ -1,4 +1,8 @@
-const switchTime = (state = Date.now(), action) => {
+import moment from 'moment'
+
+const initialState = +moment().startOf('isoweek').format('x');
+
+const switchTime = (state = initialState , action) => {
     switch (action.type) {
         case 'SWITCH_MONTH':
             return action.month

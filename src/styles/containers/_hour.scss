@@ -7,7 +7,7 @@
   padding-left: 5px;
   padding-right: 5px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   overflow: hidden;
   span {
@@ -16,5 +16,11 @@
   }
   .icon {
     font-size: 9px;
+  }
+}
+@media (max-width: 720px){
+  .hour {
+    width: 100%;
+    justify-content: space-between;
   }
 }

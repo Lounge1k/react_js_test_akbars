@@ -1,8 +1,16 @@
 .day {
-  border: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
   overflow: hidden;
   margin-right: 10px;
   &:last-child{
     margin-right: -1px;
+    border-right: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .day {
+    margin-right: 0;
   }
 }

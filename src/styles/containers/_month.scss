@@ -4,11 +4,13 @@
   justify-content: space-between;
   background-color: #dcdcdc;
   .month-name {
-    font-size: 2vh;
+    font-size: 16px;
+    font-weight: bold;
     color: #7e7e7e;
     text-transform: capitalize;
   }
   .icon {
     cursor: pointer;
+    font-size: 16px;
   }
 }

@@ -22,9 +22,9 @@ const App = () => (
                 </div>
             </div>
             <Room name='Зеленая' seats='5' />
-            <Room name='Красная' seats='5' />
-            <Room name='Синяя' seats='5' />
-            <Room name='Фиолетовая' seats='5' />
+            <Room name='Красная' seats='15' />
+            <Room name='Синяя' seats='25' />
+            <Room name='Фиолетовая' seats='25' />
         </div>
     </div>
 )

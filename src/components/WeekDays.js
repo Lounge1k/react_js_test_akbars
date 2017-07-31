@@ -1,4 +1,4 @@
-require('../styles/containers/_week.scss');
+import '../styles/containers/_week.scss';
 
 import React from 'react'
 import moment from 'moment'
@@ -9,7 +9,7 @@ let WeekDays = ({start}) => {
     let weekDays = [];
 
     for(let i=0;i<=4;i++ ){
-        let time = moment(start).add(i,'days').format('D dddd')
+        let time = moment(start).add(i,'days').format('D dd')
         weekDays.push(
             <div key={i} className='week-day'>
                 <div>{time}</div>

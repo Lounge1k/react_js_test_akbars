@@ -1,20 +1,36 @@
+@import '../common/openSans';
 .container {
-  max-width: 800px;
+  width:100%;
   .row {
     padding-left: 20px;
     border: 0;
     &.header{
       margin-bottom: 10px;
+      word-wrap: break-word;
     }
     &-name {
       width: 20%;
       display: inline-block;
-      font-size: 3vh;
+      font-size: 18px;
     }
     &-content{
       width: 80%;
       display: inline-block;
-      font-size: 2vh;
+      font-size: 16px;
     }
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    .row {
+      padding-left: 5px;
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  .container {
+    width: 320px;
   }
 }

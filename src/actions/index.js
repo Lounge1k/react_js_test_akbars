@@ -5,5 +5,5 @@ export const switchMonth = (month) => ({
 export const book = (id,booked) => ({
     type: 'BOOK_TIME',
     id,
-    booked: booked
+    booked
 })
